@@ -1,8 +1,7 @@
-import { createBrowserRouter } from "react-router-dom"
-import IndexPage from "../pages/index.page";
+import { createHashRouter } from "react-router-dom"
+import IndexPage from "../pages/index.page"
 
-
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <IndexPage />

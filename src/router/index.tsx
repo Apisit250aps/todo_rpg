@@ -1,10 +1,11 @@
 import { createBrowserRouter } from "react-router-dom"
-import App from "../App"
+import IndexPage from "../pages/index.page";
+
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />
+    element: <IndexPage />
   }
 ])
 
